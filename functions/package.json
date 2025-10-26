@@ -1,25 +1,16 @@
 {
-  "name": "",
+  "name": "microservice-transacoes",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/functions/*.js",
+  "main": "index.js",
   "scripts": {
-    "start": "func start",
-    "test": "echo \"No tests yet...\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-<<<<<<< HEAD
-    "@azure/functions": "^4.0.0",
-    "axios": "^1.12.2"
-=======
-    "@azure/functions": "^4.0.0"
->>>>>>> e18ea1c4509abc2261c5ecf0b29c13d7960e015e
-  },
-  "devDependencies": {
-    "azure-functions-core-tools": "^4.x"
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> e18ea1c4509abc2261c5ecf0b29c13d7960e015e
